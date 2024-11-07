@@ -1,0 +1,527 @@
+body {
+	margin: 0px;
+	height: 600px;
+}
+header {
+	background-color: #99FF33;
+	height: 4px;
+	margin: 0px;
+}
+.main1 {
+	background-color: #330000;
+	height: 580px;
+	margin: 0px;
+	padding: 10px;
+}
+.menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+h8 {
+	margin-top: 20px;
+	margin-left: 100px;
+	color: white;
+	font-size: 28px;
+	display: flex;
+	border: 20px;
+
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+	font-size: 15px; /* Розмір шрифту */
+    color: white;
+    height: 15px;
+}
+.but {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+}
+.but li {
+	margin-right: 10px;
+	background-color: #330000;
+	color: white;
+	border:none; 
+    width: 100px; 
+}
+.but ul {
+
+}
+.but li a {
+  	text-decoration: none;
+  	color: #999;
+  	display: block;
+  	padding-left: 5px;
+}
+.b{ 
+    padding-left:10px;
+    width: 100px;
+    min-height:5px; 
+    min-width: 40px;
+    padding-top: 0px;
+    text-align: center;
+    transform: translateY(50%);
+    transition: 0.6s;
+}
+.b:hover	{
+	background-color:#99FF33;
+    border-radius:5px; 
+    padding:4px;
+    width: 100px;
+    min-height:7px; 
+    min-width: 40px;
+    text-align: center;
+    transform: translateY(50%);
+}
+.text{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.text h1	{
+
+	color: white;
+	font-size: 60px;
+	margin-left: 185px;
+	margin-top: 80px;
+	width: 250px;
+	height: 130px;
+}
+.text p	{
+	line-height: 1.3;
+	color: #999999;
+	font-size: 17px;
+	margin-left: 180px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	width: 400px;
+	font-family: capitalize;
+}
+.b2 {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-left: 200px;
+	min-height:7px; 
+    min-width: 40px;
+    width: 140px;
+	height: 35px;
+	font-size: 13px;
+	color: #99FF33;
+	background-color:#99FF33;
+    border-radius:12px; 
+    padding:4px;
+    width: 140px;
+    text-align: center;
+}
+.b2 a {
+	display: flex;
+	justify-content: center;
+  	text-decoration: none;
+  	text-align: center;
+  	margin-top: 10px ;
+  	color: #333333;
+  	display: block;
+}
+.kolo {
+	margin-top: 60px;
+	margin-left: 100px;
+	border-radius:50%;
+	background:#333333;
+	width:380px;
+	height:380px;
+	display: flex;
+	justify-content: center; 
+}
+.image {
+	margin-top: 4px;
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    object-fit: cover; /* Обрезает изображение, чтобы оно заполнило круг */
+    width:350px;
+	height:350px;
+	border-radius:50%;
+}
+.main2 {
+	background-color:#660000;
+	height: 1000px;
+	margin: 0px;
+	padding: 10px;
+}
+.bluda {
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+	height: 15px;
+}
+.bludo {
+	margin-left: auto;
+	margin-right: auto;
+	background:#993333;
+	width:225px;
+	height:305px;
+	 display: grid;
+	 grid-template-columns: 1fr; 
+	text-align: center;
+	border-radius:5px;
+}
+.bludo:hover	{
+	background-color:#99FF33;
+	border-radius:5px; 
+	width: 230px;
+	height: 310px;
+	min-height:7px; 
+	min-width: 40px;
+	text-align: center;
+	transform: translateY(0%);
+}
+.image2 {
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	margin-left: 53px;
+}
+.nameblud {
+	margin-top:5px;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	line-height: 1.0;
+	color: #CCCCCC;
+}
+.opysblud {
+	margin-top: 5px;
+	margin-left: 25px;
+	width: 170px;
+	display: flex;
+	justify-content: center;
+	font-size: 13px;
+	color: #CCCCCC;
+}
+.line {
+	margin-top: 367px ;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	background-color: grey;
+	width: 950px;
+	height: 3px;
+}
+.centr {
+	margin-top: -30px ;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: grey;
+	width: 256px;
+	height: 50px;
+	text-align: center;
+	border-radius:15px;
+	color: #000000;
+}
+.centr h2 {
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	margin-top: 5px;
+	color: #CCCCCC;
+}
+.fotorobot {
+	display: flex;
+	justify-content: center;
+	margin-top: 37px;
+	height: 10px;
+}
+.foto {
+	margin-left: auto;
+	margin-right: auto;
+	background:#333;
+	width:304px;
+	height:204px;
+	display: grid;
+	grid-template-columns: 1fr; 
+	text-align: center;
+	border-radius:5px; 
+	text-align: center; 
+}
+.foto:hover {
+	margin-left: auto;
+	margin-right: auto;
+	width:304px;
+	height:204px;
+	display: grid;
+	grid-template-columns: 1fr; 
+	text-align: center;
+	border-radius:5px;
+	background: #99FF33; 
+}
+.f {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	width: 290px;
+	height: 190px;
+	object-fit: cover;
+}
+.fotorob {
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+	height: 10px;
+}
+.fot {
+	background:#333;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width:304px;
+	height:204px;
+	display: grid;
+	grid-template-columns: 1fr; 
+	text-align: center;
+	border-radius:5px; 
+}
+.fot:hover {
+	background:#333;
+	width:304px;
+	height:204px;
+	display: grid;
+	grid-template-columns: 1fr; 
+	text-align: center;
+	border-radius:5px;
+	background: #99FF33; 
+}
+.fo {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	width: 290px;
+	height: 190px;
+	object-fit: cover;
+}
+figure {
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+figcaption {
+	margin-top: -30px;
+	text-align: center;
+	color: #990000;
+}
+.main3 {
+	background-color: #333333;
+	height: 390px;
+}
+footer {
+	height: 60px;
+	background-color: #292929;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.main3 {
+	display: flex;
+	justify-content: space-between;
+}
+.c {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+.c1 {
+	display: flex;
+
+}
+.c1-1 {
+	background:#333;
+	margin-left: 15px;
+	margin-right: 15px;
+	display: flex;
+	text-align: center;
+	border-radius:5px; 
+}
+.angltext {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-top: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 400px;
+	text-align: center;
+}
+h6 {
+	text-align: center;
+	height: 50px;
+	color: white;
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+.title {
+	font-size: 20px;
+	color: green;
+	height: 50px;
+	width: 260px;
+	margin-top: -70px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+.otstup {
+	margin: 1px;
+}
+.title1 {
+	font-size: 18px;
+	color: grey;
+	height: 50px;
+	width: 260px;
+	margin-top: -100px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+.b3 {
+	font-size: 18px;
+	color: green;
+	height: 50px;
+	width: 260px;
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+.cc {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-left: auto;
+	margin-right: auto;
+}
+.c2 {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.c2-1 {
+	background:#333;
+	margin-left: 15px;
+	margin-right: 15px;
+	display: flex;
+	text-align: center;
+	border-radius:5px;
+	height: 40px;
+	margin-bottom: 45px; 
+}
+.link-list {
+	text-align: center;
+    list-style-type: none; /* Убираем стандартные маркеры */
+    padding: 0;
+}
+.link-list li {
+	margin-left: 20px;
+    margin: 10px 0; /* Отступы между элементами списка */
+    position: relative; /* Для абсолютного позиционирования стрелочек */
+}
+.link-list a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    padding-left: 50px; /* Отступ слева для текста ссылки */
+   position: relative;
+    display: inline-block; /* Блок для корректного отображения */
+}
+.link-list a:before, .link-list a:after {
+	padding-left: 20px;
+    content: '>>'; /* Стрелочки */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 5px; /* Смещаем влево */
+    top: 50%; /* Центрируем вертикально */
+    transform: translateY(-50%); /* Центрируем по вертикали */
+    font-size: 13px; /* Размер стрелочек */
+    color: grey; /* Цвет стрелочек */
+}
+.link-list a:after {
+        content: '';
+        display: block;
+        height: 1px; /* Висота лінії */
+        background-color: grey; /* Колір лінії */
+        margin-top: 15px; /* Відступ між посиланням і лінією */
+        width: 100%; /* Ширина лінії під посиланням */
+    }
+.c3 {
+	display: flex;
+}
+.c3-1 {
+	background:#333;
+	margin-left: 15px;
+	margin-right: 15px;
+	display: flex;
+	text-align: center;
+	border-radius:5px; 
+}
+.c4 {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+.c4-1 {
+	background:#333;
+	margin-left: 15px;
+	margin-right: 15px;
+	display: flex;
+	text-align: center;
+	border-radius:5px;
+	height: 15px; 
+}
+section {
+		margin-top: 100px;
+        border-radius: 5px;
+        width: 300px; /* Ширина секції */
+    }
+    .inputbox {
+        position: relative;
+        margin-bottom: -25px;
+    }
+    .inputbox ion-icon {
+    	background-color: grey;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+    }
+    .inputbox label {
+        display: block;
+        color: grey;
+        margin-bottom: 5px;
+    }
+    .inputbox input, .inputbox textarea {
+        width: 100%;
+        padding: 5px 5px 5px 5px; /* Відступи для поля вводу */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    button {
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Зелений колір кнопки */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+.grup {
+	color: white;
+	margin-left: 60px;
+	text-align: left;
+}
+.iname {
+	color: white;
+	margin-right: 60px;
+	text-align: right;
+}
